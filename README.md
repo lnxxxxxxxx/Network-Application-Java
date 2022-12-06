@@ -1,4 +1,4 @@
-# Network-Application-Java
+# Network-Application-Java IDE: ECLIPSE
 Network Applications with several test stages. 
 
 Project Open Source The final stage is in Simple_UDP > bin > simple_udp3.. 
