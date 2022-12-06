@@ -1,0 +1,21 @@
+package simple_tcp;
+
+import java.net.ServerSocket;
+
+public class Server {
+		
+	public Server()	throws Exception {
+		
+		ServerSocket server_socket = new ServerSocket(2020); //openin a new port
+		System.out.println("Port 2020 is open");	
+	}
+	
+	public static void main(String[] args) {
+		try {
+			new Server();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+}

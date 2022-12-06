@@ -1,0 +1,19 @@
+package simple_tcp;
+
+public class Server {
+		
+	public Server()	{
+		
+		ServerSocket server_socket = new ServerSocket(2020); //openin a new port
+		
+	}
+	
+	public static void main(String[] args) {
+		try {
+			new Server();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+}

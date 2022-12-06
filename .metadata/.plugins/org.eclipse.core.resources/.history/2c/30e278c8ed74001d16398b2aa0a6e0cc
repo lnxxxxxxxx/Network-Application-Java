@@ -1,0 +1,15 @@
+package simple_tcp;
+
+public class Cliente {
+		
+	public static void main(String[] args) {
+		try {
+			new Client();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+	
+	
+}
